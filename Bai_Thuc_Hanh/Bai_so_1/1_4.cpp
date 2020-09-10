@@ -32,6 +32,7 @@ void Sach::XUAT()
 int main(int argc, char const *argv[])
 {
     Sach *a; int n;
+    cout<<"Nhap n: ";   cin>>n;
     cout<<"Nhap thong tin cua "<<n<<" cuon sach: "<<endl;
     a = new Sach[n];
     for (int i = 0; i < n; i++)
