@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+    Sinh viên tự thiết kế lớp, các thuộc tính, các phương thức cần thiết để cho phép trong
+chương trình chính, giải và biện luận được các phương trình bậc 2 bất kỳ.
+*/
+
 class PT_b2
 {
 private:

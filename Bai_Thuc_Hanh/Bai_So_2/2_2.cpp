@@ -1,6 +1,12 @@
 #include <Bits/stdc++.h>
 using namespace std;
 
+/*
+    Sinh viên tự thiết kế lớp, các thuộc tính, các phương thức cần thiết để cho phép trong
+chương trình chính, nhập vào một mảng gồm n số nguyên, sắp xếp mảng tăng dần, in
+mảng ra màn hình.
+*/
+
 void Swap( int m, int n )
 {
     int temp = m;

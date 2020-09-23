@@ -1,0 +1,33 @@
+[1mdiff --git a/Bai_Thuc_Hanh/Bai_So_2/2_1.cpp b/Bai_Thuc_Hanh/Bai_So_2/2_1.cpp[m
+[1mindex 7a800a2..616b081 100644[m
+[1m--- a/Bai_Thuc_Hanh/Bai_So_2/2_1.cpp[m
+[1m+++ b/Bai_Thuc_Hanh/Bai_So_2/2_1.cpp[m
+[36m@@ -1,6 +1,11 @@[m
+ #include <bits/stdc++.h>[m
+ using namespace std;[m
+ [m
+[32m+[m[32m/*[m
+[32m+[m[32m    Sinh viên tự thiết kế lớp, các thuộc tính, các phương thức cần thiết để cho phép trong[m
+[32m+[m[32mchương trình chính, giải và biện luận được các phương trình bậc 2 bất kỳ.[m
+[32m+[m[32m*/[m
+[32m+[m
+ class PT_b2[m
+ {[m
+ private:[m
+[1mdiff --git a/Bai_Thuc_Hanh/Bai_So_2/2_2.cpp b/Bai_Thuc_Hanh/Bai_So_2/2_2.cpp[m
+[1mindex 48036d3..d0a5369 100644[m
+[1m--- a/Bai_Thuc_Hanh/Bai_So_2/2_2.cpp[m
+[1m+++ b/Bai_Thuc_Hanh/Bai_So_2/2_2.cpp[m
+[36m@@ -1,6 +1,12 @@[m
+ #include <Bits/stdc++.h>[m
+ using namespace std;[m
+ [m
+[32m+[m[32m/*[m
+[32m+[m[32m    Sinh viên tự thiết kế lớp, các thuộc tính, các phương thức cần thiết để cho phép trong[m
+[32m+[m[32mchương trình chính, nhập vào một mảng gồm n số nguyên, sắp xếp mảng tăng dần, in[m
+[32m+[m[32mmảng ra màn hình.[m
+[32m+[m[32m*/[m
+[32m+[m
+ void Swap( int m, int n )[m
+ {[m
+     int temp = m;[m
