@@ -1,1 +1,1 @@
-x.DcNSX
+TinhNang
