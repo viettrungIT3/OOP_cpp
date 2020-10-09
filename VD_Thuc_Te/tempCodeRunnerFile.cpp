@@ -1,1 +1,3 @@
-cout<<setw(10)<<MaSach<<setw(20)<<TenSach<<setw(20)<<SoTrang<<setw(20)<<NamXB<<endl;
+cout<<"Nhap k = "; cin>>k;  k--;
+    // Insert( A, n, k);
+    // Delete123( A, n);
