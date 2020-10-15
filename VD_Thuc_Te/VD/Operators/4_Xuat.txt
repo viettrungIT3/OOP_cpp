@@ -1,0 +1,8 @@
+Ma SV:  2019603066
+Ho ten: Nguyen Viet Trung
+Tuoi:   19
+Diem:   10
+Ma SV:  2019603247
+Ho ten: Chu Ba Huong
+Tuoi:   1
+Diem:   1
