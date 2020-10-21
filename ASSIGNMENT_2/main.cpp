@@ -23,7 +23,7 @@ void Nguoi::Nhap()
 
 void Nguoi::Xuat()
 {
-    cout<<setw(30)<<left<<HoTen<<setw(15)<<left<<NgaySinh<<setw(30)<<left<<QueQuan;
+    cout<<setw(30)<<left<<HoTen<<setw(15)<<left<<NgaySinh<<setw(20)<<left<<QueQuan;
 }
 
 class SinhVien : public Nguoi
@@ -93,6 +93,7 @@ public:
     cout<<"Ngay mo: "<<NgayMo<<endl;
     cout<<"Giao Vien: "<<GiaoVien<<endl;
     cout<<"Danh sach Sinh Vien: "<<endl;
+    cout<<setw(15)<<left<<"MSV"<<setw(30)<<left<<"HoTen"<<setw(15)<<left<<"NgaySinh"<<setw(20)<<left<<"QueQuan"<<setw(15)<<left<<"Nganh"<<setw(15)<<left<<"KhoaHoc"<<endl;
     for ( int i = 0; i < n; i++)
         X[i].Xuat();
  }
@@ -123,9 +124,13 @@ public:
              }
          }
      }
-     cout<<"Danh sach SV sau khi Sap Xep theo khoa: "<<endl;
-     for ( int i = 0; i < A.n; i++)
-        A[i].Xuat();
+     cout<<"\nDanh sach SV sau khi Sap Xep theo khoa: "<<endl;
+     cout<<setw(15)<<left<<"MSV"<<setw(30)<<left<<"HoTen"<<setw(15)<<left<<"NgaySinh"<<setw(20)<<left<<"QueQuan"<<setw(15)<<left<<"Nganh"<<setw(15)<<left<<"KhoaHoc"<<endl;
+     for (int i = 0; i < A.n; i++)
+     {
+         A.X[i].Xuat();
+     }
+     
  }
 
 int main()
