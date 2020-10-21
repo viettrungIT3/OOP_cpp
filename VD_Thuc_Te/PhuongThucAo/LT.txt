@@ -1,0 +1,17 @@
+Phương thức ảo và kết buộc động
+1. Phương thức ảo
+    1. Giả sử A và B là 2 đối tượng thuộc lớp Hinh và HCN 
+    2. Giả sử con trỏ P là một con trỏ thuộc lớp hình. Khi đó:
+        KL1: Con trỏ P có thể trỏ được tới cả A lẫn B;
+        KL2: 
+            Khi phương thức nhập không phải là ảo thì
+                P->Nhap();      tương ứng với phương thức nhập của lớp Hinh, Mặc dù P có thể trỏ tới các đối tuong thuộc lớp hình 
+            Khi Phương thức nhập là ảo thì
+                P->Nhap();      tương ứng với phương thức nhập của lớp Hinh hoặc là lớp HCN tùy thuộc vào trỏ tới lớp nào
+                                Điều này gọi là tương ứng bội/ Kết buộc động/ Tính đa hinh;
+    * Cách chuyển một phương thức ảo: Là thêm từ kháo "virtual" và trước nguyên mẫu của phương thức
+    VD: virtual void Nhap();
+        virtual void Xuat();
+
+2. KN: Phương thức thuần ảo: là phương thức ảo không có bất kỳ câu lệnh nào bên trong ( trừ lệnh return).
+3. KN: Lớp cơ sở trừu tượng: là lớp cha( cơ sở) chứa toàn phương thức thuần ảo.

@@ -1,0 +1,15 @@
+Chương 6: TEAMPLATE ( khuôn mẫu)
+
+VD: Cài đạt lớp mảng số nguyên
+
+1. Chuyển một lớp thành khuôn mẫu( teamplateclass)
+    B1: thay kiểu dữ liệu ta định nghia một cách linh hoạt bằng T 
+    B2: thêm "teamplate <class T>" vào trước nguyễn mẫu của lớp cũ
+        và trước nguyên mẫu cảu phương thức.
+        VD: template <class T> class Array
+    B3: chuyển TenLop:: thành TenLop<T>::
+        VD: Array<T>::Nhap()
+
+2. Sử dụng khuôn mẫu
+    TenLop<Kieu> TenDoiTuong
+    VD: Array<int> K;
