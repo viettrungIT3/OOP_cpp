@@ -89,7 +89,7 @@ void Student::output()
     Person::output();
     y.output();
     cout<<"\tClass: "<<Class<<endl;
-    cout<<"\tScore"<<score<<endl;
+    cout<<"\tScore: "<<score<<endl;
 }
 
 int main(int argc, char const *argv[])
