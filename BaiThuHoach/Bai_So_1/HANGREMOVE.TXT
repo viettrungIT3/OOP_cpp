@@ -1,0 +1,4 @@
+Danh sach hang sau khi xoa ma hang H005: 
+              maHang             tenHang             DG        SL     Thanh tien     NamSX
+Danh sach hang sau khi xoa ma hang H005: 
+              maHang             tenHang             DG        SL     Thanh tien     NamSX

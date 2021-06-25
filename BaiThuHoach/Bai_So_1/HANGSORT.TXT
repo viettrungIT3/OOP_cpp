@@ -1,0 +1,2 @@
+Danh sach hang sau khi sap xep: 
+              maHang             tenHang             DG        SL     Thanh tien     NamSX
